@@ -114,7 +114,7 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[
-          Import.Button("🤓 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 🤓", url='https://www.youtube.com/watch?v=NrbMc93aCzA'),
+          Import.Button("🤓 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 🤓", url='https://t.me/Cinemachanda'),
           Import.Button("𝘀𝗼𝘂𝗿𝗰𝗲 𝗰𝗼𝗱𝗲📦", callback_data="source")
           ],[
           Import.Button("⚠️𝗵𝗲𝗹𝗽", callback_data="help"),
